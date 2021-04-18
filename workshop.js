@@ -59,6 +59,33 @@ arr4[7] = 123;
 console.log(arr4);
 
 // Objects - create, mutate, spread
+const obj = {};
+obj.hello = "hello";
+obj.number = 5;
+console.log(obj);
+
+const obj2 = {
+    hello: "hello",
+    number: 5
+};
+console.log(obj2);
+
+const person = {
+    firstName: "Antonina",
+    lastName: "Tellow",
+    age: 32,
+    isAwesome: true
+};
+console.log(person);
+
+const person2 = {
+    favColor: "pink",
+    ...person,
+    hairColor: "brown",
+    numbers: [3,7,24]
+}
+console.log(person2);
+
 // Immutable handling of arrays - concat, map, filter, spread
 
 // EXTRA:
