@@ -1,3 +1,3 @@
-# Arrays and objects in Javascript
+# Arrays and objects in JavaScript
 
 Hi and welcome to the workshop! :)
