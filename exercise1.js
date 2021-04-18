@@ -4,7 +4,7 @@
 function arrayInfo(arr) {
     console.log("Array info for " + JSON.stringify(arr) + ":");
 
-    const length = undefined;
+    const length = arr.length;
     console.log("Length of the array is " + length);
 
     const firstElement = undefined;
