@@ -26,6 +26,38 @@ const arr2 = ["hello", "pink"];
 const arr3 = [1, "pink", true, [1,2,3]];
 
 // Mutation of arrays - push, pop, shift, unshift, reverse
+const arr4 = [];
+arr4.push("i");
+console.log(arr4);
+arr4.push("n");
+console.log(arr4);
+arr4.push("k");
+console.log(arr4);
+
+arr4.pop();
+console.log(arr4);
+
+arr4.shift();
+console.log(arr4);
+
+arr4.unshift("i");
+console.log(arr4);
+
+arr4.unshift("p");
+console.log(arr4);
+
+arr4.push("k");
+console.log(arr4);
+
+arr4.reverse();
+console.log(arr4);
+
+arr4[0] = "p";
+console.log(arr4);
+
+arr4[7] = 123;
+console.log(arr4);
+
 // Objects - create, mutate, spread
 // Immutable handling of arrays - concat, map, filter, spread
 
